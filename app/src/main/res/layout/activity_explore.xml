@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context=".ExploreActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="295dp"
+        android:layout_height="512dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="10sp"
+            android:text="@string/about"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:text="@string/encryption"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="7sp"
+            android:text="@string/aboutEncryption"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7sp"
+            android:text="@string/decryption"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="7sp"
+            android:text="@string/aboutDecryption"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35sp"
+            android:drawableLeft="@drawable/encryp_lock"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:drawableRight="@drawable/unlock"
+            android:text="@string/start"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/encryption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/encyp_home_button"
+
+        android:onClick="openEncryption"
+        android:paddingStart="15dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="10sp"
+        android:paddingBottom="12dp"
+        android:text="@string/encryption"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toStartOf="@+id/decryption"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"></Button>
+
+    <Button
+        android:id="@+id/decryption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/encyp_home_button"
+        android:onClick="openDecryption"
+        android:paddingStart="15dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="10sp"
+        android:paddingBottom="12dp"
+        android:text="@string/decryption"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

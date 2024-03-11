@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/audiowide</item>
+        <item>@font/blinker_light</item>
+        <item>@font/bungee_hairline</item>
+        <item>@font/codystar</item>
+        <item>@font/courier_prime</item>
+        <item>@font/faster_one</item>
+        <item>@font/fredericka_the_great</item>
+        <item>@font/geostar</item>
+        <item>@font/hepta_slab_light</item>
+    </array>
+</resources>

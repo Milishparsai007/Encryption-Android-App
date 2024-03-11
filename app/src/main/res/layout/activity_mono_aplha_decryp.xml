@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/decryptMono"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_decyp"
+    tools:context=".MonoAplhaDecrypActivity">
+
+    <TextView
+        android:id="@+id/easyTextView"
+        android:layout_width="266dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/hepta_slab_light"
+        android:text="@string/monoAplhabetic"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/enterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/enterMsg"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/easyTextView"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/easyTextView"
+        app:layout_constraintTop_toBottomOf="@+id/easyTextView" />
+
+    <EditText
+        android:id="@+id/inputMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/hintMsg"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="#848282"
+        app:layout_constraintEnd_toEndOf="@+id/enterTextView"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/enterTextView"
+        app:layout_constraintTop_toBottomOf="@+id/enterTextView" />
+
+    <TextView
+        android:id="@+id/keyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/enterKey"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/inputMessage"
+        app:layout_constraintStart_toStartOf="@+id/inputMessage"
+        app:layout_constraintTop_toBottomOf="@+id/inputMessage" />
+
+    <EditText
+        android:id="@+id/inputKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/hintKey"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="#848282"
+        app:layout_constraintEnd_toEndOf="@+id/keyTextView"
+        app:layout_constraintStart_toStartOf="@+id/keyTextView"
+        app:layout_constraintTop_toBottomOf="@+id/keyTextView" />
+
+    <TextView
+        android:id="@+id/easyResultView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/decypMsg"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/inputKey"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/inputKey"
+        app:layout_constraintTop_toBottomOf="@+id/decrypt" />
+
+    <Button
+        android:id="@+id/decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/encrypt_button"
+        android:text="@string/decrypt"
+        app:layout_constraintEnd_toEndOf="@+id/inputKey"
+        app:layout_constraintStart_toStartOf="@+id/inputKey"
+        app:layout_constraintTop_toBottomOf="@+id/inputKey"
+        app:toggleCheckedStateOnClick="false" />
+
+    <TextView
+        android:id="@+id/resultMono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/easyResultView"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/easyResultView"
+        app:layout_constraintTop_toBottomOf="@+id/easyResultView" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/hint"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keyTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Encyption_App</string>
+    <string name="hintKey">Enter your key</string>
+    <string name="hintMsg">Enter your message</string>
+    <string name="encryptHere">Encrypt your message</string>
+    <string name="Egenie">Encryption Genie</string>
+    <string name="Dgenie">Decryption Genie</string>
+    <string name="level">Choose the level of encryption</string>
+    <string name="technique">Choose decryption technique</string>
+    <string name="hint">(Use same as used in encryption)</string>
+    <string name="copy">(Copy the key for decryption reference)</string>
+    <string name="easy">Easy</string>
+    <string name="med">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="ceasar">Ceasar Cipher</string>
+    <string name="ceasarD">Ceasar</string>
+    <string name="enterMsg">Enter the Text</string>
+    <string name="enterKey">Enter the Key</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="encyMsg">Encrypted message is</string>
+    <string name="decypMsg">Decrypted message is</string>
+    <string name="monoAplhabetic">Mono Alphabetic Cipher</string>
+    <string name="monoAplhabeticD">Mono Alphabetic</string>
+    <string name="rsa">RSA Encryption</string>
+    <string name="rsaD">RSA</string>
+    <string name="prime">Enter prime num</string>
+    <string name="prime1">Enter p</string>
+    <string name="prime2">Enter q</string>
+    <string name="prime3">Enter e</string>
+    <string name="rsaDesc">This is a description about the values you need for this encryption</string>
+    <string name="twoPrime">p and q are two large prime numbers</string>
+    <string name="values">Values :-</string>
+    <string name="p">p :-</string>
+    <string name="q">q :-</string>
+    <string name="n">n :-</string>
+    <string name="z">z :-</string>
+    <string name="e">e :-</string>
+    <string name="pDesc">p is a prime number</string>
+    <string name="qDesc">q is prime number</string>
+    <string name="nDesc">n = p*q</string>
+    <string name="zDesc">z =(p-1)*(q-1)</string>
+    <string name="eDesc">e is prime number between 1 and z</string>
+    <string name="next">Next</string>
+    <string name="homeIntro">Your next message is being tapped!</string>
+    <string name="share">Share your messages securely with this app!!</string>
+    <string name="explore">Explore</string>
+    <string name="encryption">Encryption</string>
+    <string name="decryption">Decryption</string>
+    <string name="about">About</string>
+    <string name="start">Start below</string>
+    <string name="aboutEncryption">Encryption is the process of converting human-readable plaintext to incomprehensible text, also known as ciphertext.</string>
+    <string name="aboutDecryption">Decryption is the transformation of data that has been encrypted and rendered unreadable back to its unencrypted form.</string>
+
+</resources>
